@@ -1,0 +1,2 @@
+# Jenkinsgroovyscript
+Groovy 
