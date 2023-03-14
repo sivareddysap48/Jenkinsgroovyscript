@@ -1,0 +1,9 @@
+node('nodes')
+{
+ stage('Checkout')    
+ {
+ git branch: 'war', credentialsId: '4543d819-6929-45a8-bcb3-98bb151539c9', url: 'https://github.com/sivareddysap48/sonartesting.git' 
+ }
+
+ 
+}
